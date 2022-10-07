@@ -7,30 +7,39 @@
     <meta name="description" content="первый сайт Инны">
     <meta name="keywords" content="сайт Инны, первый, резюме">
     <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <img src="pic/foto1.jpg" width="200" alt="тут мое фото">
-    <h1>Митрофанова Инна</h1>
-    <p>Я работаю в крупной авиакомпании, но все еще <strong> ищу себя!</strong></p>
-    <p>Я люблю <em> путешествия и искусство!</em></p>
+    
+<div class="conteiner">    
 
-<h2> Мои хобби:</h2>
+    <img src="pic/foto1.jpg" width="200" alt="тут мое фото">
+    
+<header>  <h1>Митрофанова Инна</h1> </header>
+    <div class="card html">
+        <p>Я работаю в крупной авиакомпании, но все еще ищу себя!</p>
+        <p>Я люблю путешествия и искусство! </p>
+    </div>
+
+<div class="card hobby">
+<h2> Мои хобби</h2>
 <ol>
     <li>Споттинг</li>
     <li>Путешествия</li>
     <li>Художественные выставки</li>
 </ol>
+</div>
 
 <hr>
 
+<div class="card exp">
 <h2>Опыт работы</h2>
 <table>
     <thead>
-        <tr>
+        <!-- <tr>
             <th>Название</th>
             <th>Должность</th>
             <th>Год</th>
-        </tr>
+        </tr> -->
     </thead>
     <tbody>
     <tr>
@@ -48,16 +57,19 @@
         <td>Бортпроводник</td>
         <td>2021-сейчас</td>
     </tr>
-</tbody>
+    </tbody>
 </table>
-<h2>Список социальных сетей:</h2>
+</div>   
+
+<div class="card connect">
+<h2>Список социальных сетей</h2>
 
 <a href="https://vk.com/id112364919"target="_blank">VK</a>|
 <a href="http:////www.instagram.com/inna_alexy/"target="_blank">Instagram</a>
-<hr> 
-    
+</div>
+ 
+<div class="card text">
 <h2>Связаться со мной</h2>
-
 <form>
 <div>
     <label for="name">Ваше имя</label>
@@ -74,8 +86,9 @@
     <textarea id="message" cols="30" rows="5" placeholder="введите сообщение"></textarea>
  </div>
 
- <button type="submit"> Отправить</button>
+ <button type="submit" class="btn"> Отправить</button>
 </form>
+</div>
 
 <!-- <div id="header">
     <h2>Навигация</h2>
@@ -89,6 +102,6 @@
     </ul>
 </div> -->
 
-
+</div>
 </body>
 </html>

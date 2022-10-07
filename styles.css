@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+.conteiner {
+    margin: auto;
+    max-width: 750px;
+}
+img {
+    padding: 0;
+    border-radius: 25%;
+    box-shadow: 4px 4px 15px rgb(142, 143, 142);
+}
+img:hover {
+    box-shadow: 4px 4px 15px rgb(94, 94, 95);
+}
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+body {
+ /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ background-color: rgb(130, 165, 174);
+ font-family: 'Roboto', sans-serif;
+ font-size: 18px;
+ line-height: 23px;
+ font-weight: 900;
+ /* text-decoration: line-through; */
+ font-style: italic;
+ color: rgb(5, 5, 5,);
+}
+hr {
+    background-color: rgba(249, 246, 246, 0.51);
+    border: 5px;
+    border-radius: 15px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+header {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(230, 224, 221);
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.card {
+    /* background-color: rgb(122, 216, 163); */
+    opacity: 0.5;
+    padding-right: 3px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.html {
+ background: rgb(232, 212, 164);
+ /* border-radius: 20px; */
+}
+.hobby {
+    background-color: aquamarine;
+    padding-left: 40px;
+}
+.exp {
+    background-color: rgb(175, 232, 240);
+    font-weight: 700;
+}
+.text {
+    background-color: rgb(191, 158, 223);
+}
+.connect {
+    background-color: rgb(172, 196, 141);
+}
+
+a {
+    color:rgb(253, 248, 248);
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color:rgb(39, 5, 73);
+    font-size: 2rem;
+}
+a:active {
+    color:rgb(13, 54, 24);
+}
+a:visited {
+    text-decoration:line-through;
+    color: rgb(149, 149, 229);
+ }
+.btn {
+    background-color: rgb(17, 16, 17);
+    color:rgb(230, 224, 221);
+    border: none;
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(248, 244, 248);
+}
+
+
