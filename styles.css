@@ -39,6 +39,7 @@ header {
     border-bottom: 3px solid rgb(230, 224, 221);
     border-bottom-left-radius: 20px;
     padding-left: 20px;
+    paddind-bottom: 2px;
     margin-bottom: 15px;
 }
 .card {
