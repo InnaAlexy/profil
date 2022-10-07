@@ -4,7 +4,7 @@
 }
 .conteiner {
     margin: auto;
-    max-width: 500px;
+    max-width: 450px;
 }
 img {
     padding: 0;
@@ -35,8 +35,8 @@ hr {
     margin-bottom: 10px;
 }
 header {
-    font-size: 20px;
-    border-bottom: 2px solid rgb(230, 224, 221);
+    font-size: 15px;
+    border-bottom: 3px solid rgb(230, 224, 221);
     border-bottom-left-radius: 20px;
     padding-left: 20px;
     margin-bottom: 15px;
@@ -80,10 +80,10 @@ a:hover {
 a:active {
     color:rgb(13, 54, 24);
 }
-a:visited {
+/* a:visited {
     text-decoration:line-through;
     color: rgb(149, 149, 229);
- }
+ } */
 .btn {
     background-color: rgb(17, 16, 17);
     color:rgb(230, 224, 221);
